@@ -1,5 +1,5 @@
 * {
-
+    
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -13,7 +13,11 @@
     object-fit: cover;
     margin-top: 20px; /* Add space between the intro and image */
 }
-
+body {
+    background: linear-gradient( #0000ff, #ffff00); /* Blue to Yellow gradient */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Optional: Sets a default font */
+  }
 #about {
     display: flex;
     flex-direction: column;
@@ -93,6 +97,69 @@ nav ul li a:hover {
     object-fit: contain;
     margin-right: 10px;
 }
-
-
-
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    background-color: #e0f7e9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c2e1cc;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .project-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .project-content {
+    flex: 1;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .project p {
+    color: #555;
+  }
+  footer {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 14px; /* Adjust font size if needed */
+  }
+  
+  footer p {
+    margin: 0;
+    color: #555;
+  }
+  
+  footer a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
