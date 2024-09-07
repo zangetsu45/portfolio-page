@@ -160,6 +160,33 @@ nav ul li a:hover {
   footer a:hover {
     text-decoration: underline;
   }
-  
+  footer {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+    vertical-align: middle; /* Align images vertically in the text line */
+    margin: 0 5px; /* Space around images */
+}
+
   
   
